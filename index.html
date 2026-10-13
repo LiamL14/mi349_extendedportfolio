@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Leonard's Portfolio</title>
+<style>
+/* CSS Custom Properties */
+    :root{
+    --primary-color: #0f172a; 
+    --accent-color: #3b82f6; 
+    --background-color: #f0f4f8;
+    --text-color: #1e293b; 
+    --light-color: #ffffff;
+    }
+
+    /* 1. Universal reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* 2. Body */
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-family: Georgia, serif;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    /* 3. Header */
+    header {
+        background-color: var(--primary-color);
+        padding: 20px 40px;
+    }
+
+    /* 4. Nav ul */
+    nav ul {
+        list-style: none;
+    }
+
+    /* 5. Nav list items */
+    nav ul li {
+        display: inline;
+        margin-right: 24px;
+    }
+
+    /* 6. Nav links */
+    nav ul li a {
+        color: var(--light-color);
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    /* 7. Nav links hover */
+    nav ul li a:hover {
+        color: var(--accent-color);
+    }
+
+    /* 8. Intro section */
+    section#intro {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        padding: 80px 40px;
+        text-align: center;
+    }
+
+    /* 9. H1 */
+    h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+        color: var(--light-color);
+    }
+
+    /* 10. H2 */
+    h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: var(--primary-color);
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 8px;
+        display: inline-block;
+    }
+
+    /* 11. H3 */
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: var(--accent-color);
+    }
+
+    /* 12. General sections */
+    section {
+        padding: 60px 40px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    /* 13. Paragraphs */
+    p {
+        margin-bottom: 16px;
+        font-size: 16px;
+        color: var(--text-color);
+    }
+
+    /* 14. Intro section paragraphs */
+    section#intro p {
+        font-size: 18px;
+        color: # --background-color;
+    }
+
+    /* 15. Image */
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin: 24px auto;
+        border: 4px solid var(--accent-color);
+    }
+
+    /* 16. Projects section */
+    section#projects {
+        background-color: var(--light-color);
+        border-left: 4px solid var(--accent-color);
+        border-radius: 4px;
+        padding: 40px;
+        max-width: 900px;
+        margin: 40px auto;
+    }
+
+    /* 17. Address */
+    address {
+        font-style: normal;
+        line-height: 2;
+    }
+
+    /* 18. Links inside address */
+    address a {
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+
+    /* 19. Address links hover */
+    address a:hover {
+        text-decoration: underline;
+    }
+
+    /* 20. Footer */
+    footer {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="intro">
+    <h1>Hi, I'm Liam Leonard</h1>
+    <p>Information Science Student at Michigan State University</p>
+    <p>Current Senior with expected graduation of May 2027</p>
+    <img src="IMG_5412.jpg" alt="Portrait of Liam Leonard" width="300" height="300" />
+</section>
+    
+<section id="about">   
+    <h2>About Me</h2>
+    <p>My name is Liam Leonard and I am from White Lake, Michigan. I have a deep interest in technology and design. I enjoy coding and learning new information about it each day. I would like to have some sort of carrer in AI, whatever the role may be. Some of my interests outside of class are sports, hanging out with friends, and going to the gym.</p>
+    <p>I'm currently looking for internship opportunities where I can apply my skills in user research, coding, and AI research.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <h3>Castle Conquest Video Game</h3>
+    <p>Helped create the foundational work of a 8-bit simulated video game of a heroic knight travling through a castle to defeat the boss. We used VSCode to help code the game.</p>
+</section>
+
+<section id="contact">
+    <h2>Contacts</h2>
+    <p>I'd love to hear from you. Whether it's a project, opportunity, or just a hello!</p>
+    <address>
+        <p>Email: <a href="mailto:liamleonard1414@gmail.com">liamleonard1414@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/liamleonard147/" target="_blank" rel="noopener noreferrer">linkedin.com/in/liamleonard147</a></p>
+    </address>
+</section>
+
+<footer>
+    <p>&copy; 2026, Liam Leonard</p>
+</footer>
+
+</body>
+</html>
